@@ -1,0 +1,29 @@
+
+
+{% extends "base.html" %}
+
+{% block title %}Quiénes Somos{% endblock %}
+
+{% block content %}
+<h1>Sobre Nosotros</h1>
+<p>Nuestra empresa, CompuSpace, fue fundada en 2020 con el objetivo de brindar soluciones tecnológicas innovadoras y personalizadas para empresas y usuarios individuales. Desde nuestros inicios, nos hemos comprometido a ofrecer productos de alta calidad, como equipos de cómputo, periféricos y servicios de soporte técnico especializado, que permiten a nuestros clientes optimizar su productividad y mantener su infraestructura tecnológica en óptimas condiciones.
+
+    Con un enfoque en la atención al cliente y la mejora continua, en CompuSpace trabajamos para ser un socio confiable en el ámbito tecnológico, ayudando a nuestros clientes a adaptarse a un mundo cada vez más digital y competitivo.</p>
+
+<h2>Misión</h2>
+<p>En CompuSpace nuestra misión es ofrecer soluciones tecnológicas innovadoras y accesibles que mejoren la productividad y conectividad de nuestros clientes. Nos dedicamos a proporcionar equipos de cómputo de alta calidad y servicios técnicos confiables, siempre enfocados en la excelencia, el servicio al cliente y la sostenibilidad tecnológica.</p>
+
+<h2>Visión</h2>
+<p>NSer reconocidos como líderes en el mercado de tecnología, convirtiéndonos en la opción preferida de empresas y usuarios individuales que buscan soluciones tecnológicas completas y personalizadas. En CompuSpace, aspiramos a impulsar el futuro digital con productos y servicios que superen las expectativas y contribuyan a un entorno más conectado y eficiente.</p>
+
+<h2>El equipo</h2>
+<p>Conoce a nuestro increíble equipo:</p>
+<img src="{{ url_for('static', filename='img/equipo.jpg') }}" alt="Nuestro equipo">
+
+<section>
+    <h2>Síguenos en redes sociales</h2>
+    <a href="https://www.facebook.com/">Facebook</a> | <a href="https://www.instagram.com/">Twitter</a> | <a href="https://www.instagram.com/">Instagram</a>
+</section>
+
+
+{% endblock %}

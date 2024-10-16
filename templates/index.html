@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<h1>Bienvenido a nuestra empresa</h1>
+<p>Ofrecemos productos y servicios innovadores para su empresa.</p>
+
+
+<section>
+    <img src="static/img/gabinete.jpg" >
+        
+    <h1> Gabites gamers</h1>
+    <p>"Venta de gabinetes gamer al por mayor y menor"</p>
+</section>
+
+
+
+
+
+<section>
+    <img src="static/img/ventilador.jfif" >
+        
+    <h1> Ventiladores</h1>
+    <p>"Venta de ventiladores para computadoras al por mayor y menor"</p>
+</section>
+
+
+
+<section>
+    <img src="static/img/pc3.jfif">
+        
+    <h1> Otros componenetes</h1>
+    <p>"Venta de Accesorios para computadoras Fuentes de Poder,Pasta Termica,RAM,Discos duros externos ,SSD,etc"</p>
+</section>
+
+
+
+<section>
+    <h2>Testimonios de Clientes</h2>
+    <img src="static/img/cliente.png" alt="Noticia 1">
+        
+    <h1> Maria Gonzales</h1>
+    <p>"¡Excelente servicio y atención al cliente!"</p>
+</section>
+
+
+<section>
+    <h2>Testimonios de Clientes</h2>
+   
+    <img src="static/img/cliente2.jpg" alt="Noticia 1">
+    <h1> Juan Rodriguez</h1>
+    <p>"Me soluciono el problema de los ventiladores de mi computadora"</p>
+</section>
+
+<section>
+    <h2>Nuestros Servicios</h2>
+    <p>Ofrecemos una amplia gama de servicios para mejorar tu negocio.</p>
+    <a href="{{ url_for('services') }}">Ver servicios</a>
+</section>
+
+<section>
+    <h2>Síguenos en redes sociales</h2>
+    <a href="https://www.facebook.com/">Facebook</a> | <a href="https://www.instagram.com/">Twitter</a> | <a href="https://www.instagram.com/">Instagram</a>
+</section>
+{% endblock %}
+
+
+
+
+
